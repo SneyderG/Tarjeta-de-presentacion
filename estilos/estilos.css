@@ -1,0 +1,39 @@
+/*selector universal*/
+*{
+    margin: 0%;
+    padding: 0%;
+}
+:root{
+    --bg-blue:#000000;
+}
+
+.container{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(194, 112, 58);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.tarjeta{
+    width: 30%;
+    height: 70vh;
+    background-color: aliceblue;
+    border: 5px solid var(--bg-blue);
+    border-radius: 40px;
+    box-shadow: 0 0 20px var(--bg-blue);
+    position: relative;
+    
+}
+.foot{
+    width: 100%;
+    height: 20vh;
+    background-color: rgb(189, 130, 64);
+    border-radius: 0 0 2rem 2rem;
+    position: absolute;
+    bottom: 0;
+}
+.tokio.jpg{
+    width: 30%;
+    height: 70vh;
+}
